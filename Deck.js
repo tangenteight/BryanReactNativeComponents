@@ -7,10 +7,10 @@ import { View,
     UIManager
 } from 'react-native';
 
-const SCREEN_WIDTH      = Dimensions.get('window').width;
-const SCREEN_HEIGHT      = Dimensions.get('window').height;
-const SWIPE_THRESHOLD   = Dimensions.get('window').width * .25;
-const ANIMATION_DURATION = 500;
+const SCREEN_WIDTH          = Dimensions.get('window').width;
+const SCREEN_HEIGHT         = Dimensions.get('window').height;
+const SWIPE_THRESHOLD       = Dimensions.get('window').width * .25;
+const ANIMATION_DURATION    = 500;
 
 class Deck extends Component {
     static defaultProps = {
